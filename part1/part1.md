@@ -24,20 +24,20 @@
     D. student['Favorite Teacher'].name
     E. student.courseLoad[0]
 
-13. A 32            Concatenation of a string '3' with 2.
-    B 1             Converts '3' to 3 and subtracts by 2
-    C 3             null is given the value of 0
-    D 3null         null is concatenated with '3'
-    E 4             true is given the value of 1 so 1+3 = 4
-    F 0             false is given the value of 0 and so is null, so 0 + 0 = 0.
-    G 3undefined    concatenates '3' with undefined
-    H NaN           undefined is NaN so subtracting undefined from '3' results in undefined
-14. A true          '2' becomes a number so 2 > 1
-    B false         The first char '2' is greater than first char of '12'
-    C true          2 == '2' is true because '2' gets converted to 2
-    D false         2 is not of the same type as '2' so false
-    E false         true is given the value of 1 which is not equal to 1.
-    F true          Boolean(2) is the equivalent of true because 2 is a value. 
+13. A 32            Concatenation of a string '3' with 2.  
+    B 1             Converts '3' to 3 and subtracts by 2  
+    C 3             null is given the value of 0  
+    D 3null         null is concatenated with '3'  
+    E 4             true is given the value of 1 so 1+3 = 4  
+    F 0             false is given the value of 0 and so is null, so 0 + 0 = 0.  
+    G 3undefined    concatenates '3' with undefined  
+    H NaN           undefined is NaN so subtracting undefined from '3' results in undefined  
+14. A true          '2' becomes a number so 2 > 1  
+    B false         The first char '2' is greater than first char of '12'  
+    C true          2 == '2' is true because '2' gets converted to 2  
+    D false         2 is not of the same type as '2' so false  
+    E false         true is given the value of 1 which is not equal to 1.  
+    F true          Boolean(2) is the equivalent of true because 2 is a value.   
 15. Double equals checks equality (even by changing types need be) however, triple equality checks equality and if the types are the same. 
 16. Check the file part1b-question16.js
 17. First, we go through modifyArray and then we iterate through each element of array and we push its callback. In other words, we perofmr doSomething to each element of the array which basically multiplies that element by 2. Then, we add that value to newArr. As a result, newArr returns a list with the double of each element's original value.
